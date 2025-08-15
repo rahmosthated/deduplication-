@@ -1,1 +1,1 @@
-# deduplication-
+Deduplication means removing duplicate rows from a dataset so each record is unique. It’s important in machine learning because duplicates can make the model think certain examples are more important than they really are. Pandas doesn’t do it automatically because sometimes duplicates are real and should be kept. For example, two different customers might buy the same item, so their rows look the same but both are valid.
